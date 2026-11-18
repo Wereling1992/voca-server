@@ -1,0 +1,15 @@
+services:
+  voca-server:
+    image: wereling1992/voca-server:latest
+    build: .
+    container_name: voca-server
+    ports:
+      - "3420:3420"
+    environment:
+      - HOST=0.0.0.0
+      - PORT=3420
+      - API_KEY=${API_KEY:-changeme}
+      - REQUIRE_API_KEY=${REQUIRE_API_KEY:-1}
+      - DEFAULT_VOICE=F2
+      - RUST_LOG=voca_server=info
+    restart: unless-stopped
