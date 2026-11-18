@@ -1,0 +1,9 @@
+target
+.git
+.gitignore
+.env
+*.wav
+*.pcm
+__pycache__
+Cargo.lock
+README_CHI.md
