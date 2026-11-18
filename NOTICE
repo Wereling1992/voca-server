@@ -1,0 +1,14 @@
+voca-server
+Copyright 2026
+
+This product includes software developed from:
+
+  sultson/voca (https://github.com/sultson/voca)
+  Apache-2.0 License
+  Rust rewrite of tiny-voca by n4ze3m
+
+  n4ze3m/tiny-voca (https://github.com/n4ze3m/tiny-voca)
+  Apache-2.0 License (code and weights)
+  Dataset: CC BY 4.0
+
+Pronunciation data derives from CMUdict (as used by upstream).
